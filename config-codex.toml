@@ -1,0 +1,13 @@
+# Codex config snippet — append to ~/.codex/config.toml
+# (or run: codex mcp add grok -- python C:\Tools\grok-mcp\grok_mcp_server.py
+#  and then add the env_vars line below)
+#
+# env_vars only forwards the VARIABLE NAME from Codex's environment.
+# The key itself stays in your Windows user environment variables
+# (XAI_API_KEY) and is never written into this file.
+# Set it first, then restart Codex so it picks the variable up.
+
+[mcp_servers.grok]
+command = "python"
+args = ["C:\\Tools\\grok-mcp\\grok_mcp_server.py"]
+env_vars = ["XAI_API_KEY"]

@@ -1,0 +1,1 @@
+{"mcpServers":{"grok":{"args":["C:\\Tools\\grok-mcp\\grok_mcp_server.py"],"command":"python"}}}
